@@ -1,0 +1,245 @@
+{
+  "name": "Finance Elite",
+  "dataColors": [
+    "#D4AF37",
+    "#0B6E4F",
+    "#1B4F72",
+    "#C9A227",
+    "#1ABC9C",
+    "#2E86C1",
+    "#7D6608",
+    "#145A32",
+    "#5D6D7E",
+    "#B7950B"
+  ],
+  "background": "#0A0E1A",
+  "foreground": "#FFFFFF",
+  "tableAccent": "#D4AF37",
+  "good": "#1ABC9C",
+  "neutral": "#D4AF37",
+  "bad": "#C0392B",
+  "maximum": "#D4AF37",
+  "center": "#1B4F72",
+  "minimum": "#C0392B",
+  "textClasses": {
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 16,
+      "color": "#FFFFFF"
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 12,
+      "color": "#D4AF37"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 10,
+      "color": "#B8C1CC"
+    },
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 34,
+      "color": "#D4AF37"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#111827"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#1F2937"
+              }
+            },
+            "radius": 12
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#D4AF37"
+              }
+            },
+            "position": "Outer",
+            "preset": "Custom",
+            "shadowSpread": 1,
+            "shadowBlur": 12,
+            "angle": 45,
+            "shadowDistance": 2,
+            "transparency": 75
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "background": {
+              "solid": {
+                "color": "#111827"
+              }
+            },
+            "alignment": "left",
+            "fontSize": 14,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ],
+        "visualHeader": [
+          {
+            "show": true,
+            "foreground": {
+              "solid": {
+                "color": "#B8C1CC"
+              }
+            },
+            "background": {
+              "solid": {
+                "color": "#111827"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#0A0E1A"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "outspace": [
+          {
+            "color": {
+              "solid": {
+                "color": "#050810"
+              }
+            },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#D4AF37"
+              }
+            },
+            "fontSize": 34,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#B8C1CC"
+              }
+            },
+            "fontSize": 11
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#0B6E4F"
+              }
+            },
+            "position": "Outer",
+            "preset": "Custom",
+            "shadowSpread": 1,
+            "shadowBlur": 14,
+            "angle": 45,
+            "shadowDistance": 2,
+            "transparency": 70
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#111827"
+              }
+            }
+          }
+        ],
+        "items": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": "#B8C1CC"
+              }
+            },
+            "background": {
+              "solid": {
+                "color": "#111827"
+              }
+            }
+          }
+        ],
+        "header": [
+          {
+            "show": true,
+            "fontColor": {
+              "solid": {
+                "color": "#D4AF37"
+              }
+            }
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#1B4F72"
+              }
+            },
+            "position": "Outer",
+            "preset": "Custom",
+            "shadowSpread": 1,
+            "shadowBlur": 10,
+            "angle": 45,
+            "shadowDistance": 2,
+            "transparency": 75
+          }
+        ]
+      }
+    }
+  }
+}
